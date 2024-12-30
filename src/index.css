@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.list-i{
+  height: 500px;
+  width: 400px;
+}
+.listed{
+  height: 500px;
+  width: 60%;
+  flex-wrap: wrap;
+}
+.movielists{
+  margin-left:500px ;
+  li{
+    height: 90px;
+    width: 500px;
+    background-color: rgba(128, 128, 128, 0.436);
+    img{
+      height: 70px;
+      width: 70px;
+    }}
+}
+.Login-form{
+  height: 500px;
+  width: 400px;
+}
+/* Add custom styles for login form */
+.Login-form {
+  max-width: 400px;
+  width: 100%;
+}
+
+.Login-form .btn {
+  font-size: 16px;
+  padding: 12px;
+}
+
+.Login-form .form-check-label {
+  font-size: 14px;
+}
+
+.Login-form h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.log{
+  background-color: white;
+  z-index: 2222;
+  height: 100vh;
+  min-width: 100%;
+  position: fixed;
+  top: 0px;
+}
